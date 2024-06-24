@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <!-- my stylesheets -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" src="/index.js" async defer></script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="heading">Furnie Ecommerce</h1>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container card-deck">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./public/black-chair.jpg"
+              alt="a black chair"
+            />
+            <h3 class="card-title heading">Black Chair</h3>
+            <span class="card-price">$30</span>
+            <button class="btn add-in-cart" data-type="primary">
+              Add to Cart <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="./public/green-couch.avif"
+              alt="a green couch"
+            />
+            <h3 class="card-title">Green Couch</h3>
+            <span class="card-price">$200</span>
+            <button class="btn add-in-cart" data-type="primary">
+              Add to Cart <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="./public/yellow-chair.jpg"
+              alt="a yellow chair"
+            />
+            <h3 class="card-title">Yellow Sofa</h3>
+            <span class="card-price">$120</span>
+            <button class="btn add-in-cart" data-type="primary">
+              Add to Cart <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+
+          <div class="card">
+            <img
+              class="card-img"
+              src="./public/white-chair.jpg"
+              alt="a white chair"
+            />
+            <h3 class="card-title">White Fluffy Chair</h3>
+            <span class="card-price">$100</span>
+            <button class="btn add-in-cart" data-type="primary">
+              Add to Cart <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cart-section">
+          <h2 class="heading">Cart</h2>
+
+          <div class="cart">
+            <!-- <div class="cart-item" data-item="Black Chair">
+              <h4 class="item-title heading">Black Chair</h4>
+              <div class="flex-group item-amount">
+                <div class="">Qty:</div>
+                <div class="">3</div>
+              </div>
+              <div>$388</div>
+              <div class="flex-group">
+                <button class="btn cart-btn">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="btn cart-btn">
+                  <i class="fa-solid fa-minus"></i>
+                </button>
+              </div>
+            </div> -->
+          </div>
+
+          <h3 class="cart-total heading">Empty</h3>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+<!-- <div class="cart-item">
+  <h4 class="item-title heading">Black Chair</h4>
+  <div class="flex-group item-amount">
+    <div class="">Qty:</div>
+    <div class="">3</div>
+  </div>
+  <div>$388</div>
+  <div class="flex-group">
+    <button class="btn cart-btn">
+      <i class="fa-solid fa-plus"></i>
+    </button>
+    <button class="btn cart-btn">
+      <i class="fa-solid fa-minus"></i>
+    </button>
+  </div>
+</div> -->
