@@ -62,6 +62,10 @@ span {
   transition: 300ms ease;
   cursor: pointer;
 
+  & > * {
+    pointer-events: none;
+  }
+
   &[data-type="primary"] {
     color: var(--clr-neutral-100);
     background-color: var(--clr-primary-400);
