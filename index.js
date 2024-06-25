@@ -44,10 +44,12 @@ const addItemToCart = (title, price) => {
 
   total += numberPrice;
 
+  // updates the item if found in cart
   if (addOrSubtractCartItem(title, "add")) {
     return;
   }
 
+  // adds the item to cart
   cart.push({
     title,
     price: numberPrice,
